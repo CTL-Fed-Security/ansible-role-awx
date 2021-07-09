@@ -21,7 +21,7 @@
 - name: Ensure admin_password exists
   lineinfile:
     destfile: "{{ awx_repo_dir}}/installer/inventory"
-    regexp: '^#admin_password='
+    regexp: '^# admin_password='
     state: present
     line: "admin_password={{ awx_admin_password }}"
 
