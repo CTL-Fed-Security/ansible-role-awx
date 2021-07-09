@@ -1,4 +1,5 @@
 ---
+awx_admin_password: password
 awx_repo: https://github.com/ansible/awx.git
 awx_repo_dir: "~/awx"
 awx_version: devel
